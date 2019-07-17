@@ -1,7 +1,7 @@
 public class Nature {
 
     public static void main(String[] args) {
-
+/*
         Penguin pingou = new Penguin("Pingou");
         pingou.dive();
         pingou.swimDown(3);
@@ -10,9 +10,8 @@ public class Nature {
         pingou.swimUp(5);
         pingou.swimUp(1);
         pingou.getOut();
-
+*/
         Eagle eyeCherry = new Eagle("Eye Cherry");
-        // TODO : décommente le code suivant afin de le tester
      
         eyeCherry.takeOff();
         eyeCherry.ascend(120);
@@ -20,7 +19,7 @@ public class Nature {
         eyeCherry.glide();
         eyeCherry.descend(140);
         eyeCherry.land();
-        eyeCherry.descend(9);
+        eyeCherry.descend(10);
         eyeCherry.land();
      
     }
